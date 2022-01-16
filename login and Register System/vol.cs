@@ -25,7 +25,7 @@ namespace login_and_Register_System
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txtUsername.Text == "" && txtPassword.Text == "" && txtComPassword.Text == "")
+            if (txtUsername.Text == "" || txtPassword.Text == "" || txtComPassword.Text == "" || txtmail.Text == "" || txtfunc.Text == "" || txtphone.Text == "")
             {
                 MessageBox.Show("Username and Password fields are empty", "Registration Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
@@ -73,6 +73,9 @@ namespace login_and_Register_System
             txtUsername.Text = "";
             txtPassword.Text = "";
             txtComPassword.Text = "";
+            txtfunc.Text = "";
+            txtmail.Text = "";
+            txtphone.Text = "";
             txtUsername.Focus();
         }
 

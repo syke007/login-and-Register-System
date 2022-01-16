@@ -96,5 +96,10 @@ namespace login_and_Register_System
         {
 
         }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -41,13 +41,14 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(71, 287);
+            this.label5.Location = new System.Drawing.Point(74, 273);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(147, 17);
             this.label5.TabIndex = 17;
@@ -157,7 +158,7 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(37, 357);
+            this.button3.Location = new System.Drawing.Point(37, 334);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(216, 35);
             this.button3.TabIndex = 18;
@@ -172,7 +173,7 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(37, 398);
+            this.button4.Location = new System.Drawing.Point(37, 375);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(216, 35);
             this.button4.TabIndex = 19;
@@ -187,7 +188,7 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(37, 439);
+            this.button5.Location = new System.Drawing.Point(37, 416);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(216, 35);
             this.button5.TabIndex = 20;
@@ -202,7 +203,7 @@
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(37, 316);
+            this.button6.Location = new System.Drawing.Point(37, 293);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(216, 35);
             this.button6.TabIndex = 21;
@@ -210,12 +211,24 @@
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // button7
+            // 
+            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button7.Location = new System.Drawing.Point(218, 457);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(59, 27);
+            this.button7.TabIndex = 22;
+            this.button7.Text = "EXIT";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(289, 489);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -256,5 +269,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }

@@ -100,5 +100,10 @@ namespace login_and_Register_System
             new wh().Show();
             this.Hide();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
